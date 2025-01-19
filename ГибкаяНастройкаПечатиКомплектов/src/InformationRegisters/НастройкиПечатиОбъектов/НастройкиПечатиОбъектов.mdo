@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6b0904ea-ebed-40a9-83f0-6aba331ee189" extendedConfigurationObject="eeab126a-e003-40b9-a896-0eefbee608cd">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6b0904ea-ebed-40a9-83f0-6aba331ee189" extendedConfigurationObject="eeab126a-e003-40b9-a896-0eefbee608cd">
   <producedTypes>
     <selectionType typeId="237e8036-e55f-4814-a7fc-260617a50798" valueTypeId="dabba121-ae6b-4941-a2fd-d8c9c0c532cd"/>
     <listType typeId="f6ac8b40-ae1e-47b7-bba9-4882d74566a4" valueTypeId="86bb3500-1ba4-4432-abeb-72eb18c17b13"/>
@@ -15,74 +15,8 @@
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
     <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
     <writeMode>Checked</writeMode>
+    <recordSetModule>Extended</recordSetModule>
     <managerModule>Extended</managerModule>
   </extension>
   <useStandardCommands>true</useStandardCommands>
-  <attributes uuid="495e55cf-07ad-480d-a8a9-2c40f68da414">
-    <name>ПечКомп_Наименование</name>
-    <synonym>
-      <key>ru</key>
-      <value>Наименование</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>250</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </attributes>
-  <attributes uuid="2279c9fb-03f6-4e44-947d-e7aa6b35a0e4">
-    <name>ПечКомп_НастройкиКомпоновки</name>
-    <synonym>
-      <key>ru</key>
-      <value>Настройки компоновки</value>
-    </synonym>
-    <type>
-      <types>ValueStorage</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </attributes>
-  <attributes uuid="6c49510f-5b48-4601-91a7-18970553df15">
-    <name>ПечКомп_Идентификатор</name>
-    <synonym>
-      <key>ru</key>
-      <value>Идентификатор</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>36</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </attributes>
-  <dimensions uuid="5639280a-23b1-4fdc-97aa-6b7a74d1381d">
-    <name>ПечКомп_Контрагент</name>
-    <synonym>
-      <key>ru</key>
-      <value>Контрагент</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Контрагенты</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <mainFilter>true</mainFilter>
-  </dimensions>
 </mdclass:InformationRegister>

@@ -22,7 +22,7 @@
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="9ae7a0fe-bd34-40df-b47a-5d2d26618273"/>
   <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
   <namePrefix>ПечКомп_</namePrefix>
-  <configurationExtensionCompatibilityMode>8.3.23</configurationExtensionCompatibilityMode>
+  <configurationExtensionCompatibilityMode>8.3.24</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
@@ -39,5 +39,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
   <informationRegisters>InformationRegister.НастройкиПечатиОбъектов</informationRegisters>
+  <informationRegisters>InformationRegister.НастройкаПечатиОбъектов_ПечКомп</informationRegisters>
 </mdclass:Configuration>
